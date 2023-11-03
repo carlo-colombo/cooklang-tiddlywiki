@@ -57,7 +57,10 @@ jobs:
         working-directory: ${{ env.BUILD_PATH }}
       - name: Build
         run: |
+          ${{ steps.detect-package-manager.outputs.runner }} run bundle
+          ls -al 'plugins/litapp/cooklang/tiddlers/js/lib/'
           ${{ steps.detect-package-manager.outputs.runner }} run build
+          ls -al 'plugins/litapp/cooklang/tiddlers/js/lib/'
         working-directory: ${{ env.BUILD_PATH }}
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v2

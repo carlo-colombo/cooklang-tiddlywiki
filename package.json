@@ -12,7 +12,7 @@
   "scripts": {
     "tw": "npx tiddlywiki",
     "bundle": "node scripts/bundle.mjs",
-    "build": "TIDDLYWIKI_PLUGIN_PATH=./plugins tiddlywiki editions/demo/ --build index",
+    "build": "npm run bundle && TIDDLYWIKI_PLUGIN_PATH=./plugins tiddlywiki editions/demo/ --build index",
     "dev": "node scripts/dev.mjs",
     "prettier": "prettier plugins src scripts --write"
   },
