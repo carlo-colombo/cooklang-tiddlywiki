@@ -1,0 +1,8 @@
+title: $:/plugins/litapp/cooklang/DEVELOP
+type: text/vnd.tiddlywiki
+
+Install all dependencies with `npm install`.
+
+Start the server and watch for changes with `npm run dev`. Manual reload in the browser is necessary.
+
+Build the plugin demo edition with `npm run build`, the output will be found in `editions/demo/output/index.html`.

@@ -1,11 +1,5 @@
-created: 20231031125041309
-creator: carlo
-modified: 20231101130131495
-modifier: carlo
-revision: 11
-tags: 
 title: $:/plugins/litapp/cooklang/examples/pancakes
-type: text/cooklang
+type: text/x-cooklang
 
 -- TODO add source
 

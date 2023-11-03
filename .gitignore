@@ -1,0 +1,3 @@
+node_modules
+**/output
+plugins/litapp/cooklang/tiddlers/js/lib

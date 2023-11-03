@@ -1,24 +1,29 @@
-created: 20231101125934545
-creator: carlo
-modified: 20231101125941132
-modifier: carlo
-revision: 7
 title: $:/plugins/litapp/cooklang/README
 type: text/vnd.tiddlywiki
-
 
 ! Cooklang Tiddlywiki plugin
 
 !! Features
 
-* Renders `text/cooklang` tiddlers, showing ingredients and metadata as tables.
+* Renders cooklang tiddlers (`text/x-cooklang`), showing ingredients and metadata as tables.
+* Filters to parse cooklang tiddlers
+** `cooklang` convert into tiddlers with metadata and ingredients as fields, JSON of the recipe as text.
+** `cooklangjson` parse cooklang recipes to JSON.
 
+!! Installation
+
+Drag&drop the following link into your wiki
+
+* $:/plugins/litapp/cooklang
+
+Then save & reload your wiki.
 
 !! Based on 
 
 * https://www.npmjs.com/package/@cooklang/cooklang-ts
 * https://cooklang.org/
 
+---
 
 !! Example
 

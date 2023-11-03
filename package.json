@@ -1,0 +1,25 @@
+{
+  "devDependencies": {
+    "chokidar": "^3.5.3",
+    "esbuild": "^0.19.5",
+    "execa": "^8.0.1",
+    "prettier": "^3.0.3",
+    "tiddlywiki": "^5.3.1"
+  },
+  "dependencies": {
+    "@cooklang/cooklang-ts": "^1.2.4"
+  },
+  "scripts": {
+    "tw": "npx tiddlywiki",
+    "bundle": "node scripts/bundle.mjs",
+    "build": "TIDDLYWIKI_PLUGIN_PATH=./plugins tiddlywiki editions/demo/ --build index",
+    "dev": "node scripts/dev.mjs",
+    "prettier": "prettier plugins src scripts --write"
+  },
+  "name": "cooklang-tiddlywiki",
+  "version": "0.1.0",
+  "description": "Cooklang integration for Tiddlywiki",
+  "repository": "https://github.com/carlo-colombo/cooklang-tiddlywiki",
+  "author": "Carlo Colombo <carlo.colombo@gmx.com>",
+  "license": "MIT"
+}
