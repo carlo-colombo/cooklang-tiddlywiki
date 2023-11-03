@@ -1,0 +1,12 @@
+{
+    "title": "$:/plugins/litapp/cooklang",
+    "name": "Cooklang",
+    "description": "Cooklang support for Tiddlywiki",
+    "author": "Carlo Colombo",
+    "version": "0.1.0",
+    "core-version": ">=5.1.22",
+    "source": "https://github.com/thaddeusjiang/Projectify",
+    "list": "README",
+    "dependents": "",
+    "plugin-type": "plugin"
+}

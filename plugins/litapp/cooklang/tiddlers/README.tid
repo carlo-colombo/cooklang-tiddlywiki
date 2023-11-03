@@ -1,0 +1,25 @@
+created: 20231101125934545
+creator: carlo
+modified: 20231101125941132
+modifier: carlo
+revision: 7
+title: $:/plugins/litapp/cooklang/README
+type: text/vnd.tiddlywiki
+
+
+! Cooklang Tiddlywiki plugin
+
+!! Features
+
+* Renders `text/cooklang` tiddlers, showing ingredients and metadata as tables.
+
+
+!! Based on 
+
+* https://www.npmjs.com/package/@cooklang/cooklang-ts
+* https://cooklang.org/
+
+
+!! Example
+
+{{$:/plugins/litapp/cooklang/examples/pancakes}}
