@@ -2,14 +2,15 @@ import fs from 'fs'
 
 const path = './plugins/litapp/cooklang/plugin.info'
 
+const version = JSON.parse(fs.readFileSync('./package.json')).version
 const pluginInfo = JSON.parse(fs.readFileSync(path))
 
-console.log(process.argv)
+console.log(version)
 
-if (process.argv[2]==""){
+if (!version) {
     process.exit(1)
 }
 
-pluginInfo.version = process.argv[2]
+pluginInfo.version = version
 
 fs.writeFileSync(path, JSON.stringify(pluginInfo, ' ', 4))
