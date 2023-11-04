@@ -20,6 +20,8 @@ env:
 
 jobs:
   build:
+    permissions:
+      contents: write
     name: Build
     runs-on: ubuntu-latest
     steps:
@@ -59,7 +61,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          version-type:  'minor'
+          version-type:  'patch'
       - name: Build
         run: |
           ${{ steps.detect-package-manager.outputs.runner }} run build
