@@ -18,7 +18,7 @@
     "prettier": "prettier plugins src scripts --write"
   },
   "name": "cooklang-tiddlywiki",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Cooklang integration for Tiddlywiki",
   "repository": "https://github.com/carlo-colombo/cooklang-tiddlywiki",
   "author": "Carlo Colombo <carlo.colombo@gmx.com>",
