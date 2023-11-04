@@ -14,10 +14,11 @@
     "bundle": "node scripts/bundle.mjs",
     "build": "npm run bundle && TIDDLYWIKI_PLUGIN_PATH=./plugins tiddlywiki editions/demo/ --build index",
     "dev": "node scripts/dev.mjs",
-    "prettier": "prettier plugins src scripts --write"
+    "prettier": "prettier plugins src scripts --write",
+    "set-plugin-version": "node scripts/setPluginVersion.mjs"
   },
   "name": "cooklang-tiddlywiki",
-  "version": "0.1.0",
+  "version": "0.1.4",
   "description": "Cooklang integration for Tiddlywiki",
   "repository": "https://github.com/carlo-colombo/cooklang-tiddlywiki",
   "author": "Carlo Colombo <carlo.colombo@gmx.com>",
