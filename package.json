@@ -4,7 +4,6 @@
     "esbuild": "^0.19.5",
     "execa": "^8.0.1",
     "prettier": "^3.0.3",
-    "semver": "^7.5.4",
     "tiddlywiki": "^5.3.1"
   },
   "dependencies": {
@@ -15,7 +14,8 @@
     "bundle": "node scripts/bundle.mjs",
     "build": "npm run bundle && TIDDLYWIKI_PLUGIN_PATH=./plugins tiddlywiki editions/demo/ --build index",
     "dev": "node scripts/dev.mjs",
-    "prettier": "prettier plugins src scripts --write"
+    "prettier": "prettier plugins src scripts --write",
+    "set-plugin-version": "node scripts/setPluginVersion"
   },
   "name": "cooklang-tiddlywiki",
   "version": "0.1.2",
