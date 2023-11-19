@@ -1,4 +1,4 @@
-# # Tiddlywiki Cooklang plugin
+# Tiddlywiki Cooklang plugin
 
 Cooklang support for Tiddlywiki, render cooklang markup language tiddlers and use
 cooklang filters to extract and manipolate information from the recipes.
@@ -8,16 +8,11 @@ cooklang filters to extract and manipolate information from the recipes.
   * `cooklang` convert into tiddlers with metadata and ingredients as fields, JSON of the recipe as text.
   * `cooklangjson` parse cooklang recipes to JSON.
 
-## ## Installation
+## Installation
 
-Drag & drop the following link in your wiki
-https://carlo-colombo.github.io/cooklang-tiddlywiki/#%24%3A%2Fplugins%2Flitapp%2Fcooklang
+Go to the demo and follow the instructions there https://carlo-colombo.github.io/cooklang-tiddlywiki/
 
-## ## Demo wiki
-
-https://carlo-colombo.github.io/cooklang-tiddlywiki/
-
-## ## Development
+## Development
 
 Install all dependencies with `npm install`.
 
