@@ -18,13 +18,23 @@ Drag&drop the following link into your wiki
 
 Then save & reload your wiki.
 
-!! Based on 
+!! Based on
 
 * https://www.npmjs.com/package/@cooklang/cooklang-ts
 * https://cooklang.org/
 
 ---
 
+MIT License
+
+Copyright (c) 2023 Carlo Colombo
+
+
+---
+
 !! Example
+
+
+$:/plugins/litapp/cooklang/examples/pancakes
 
 {{$:/plugins/litapp/cooklang/examples/pancakes}}
