@@ -21,15 +21,15 @@ class CooklangParser {
     const recipe = new Recipe(text);
 
     const ingredients = recipe.ingredients
-      .map(({ name, quantity, units }) => {
-        return `| ${quantity}|${units} |${name} |`;
-      })
+      .map(({ name, quantity, units }) => `* ${quantity} ${units} ${name}`)
       .join("\n");
 
+      const cookwares = recipe.cookwares
+        .map(({ name, quantity, units }) => `* ${name}`)
+        .join("\n");
+
     const metadata = Object.entries(recipe.metadata)
-      .map(([k, v]) => {
-        return `| ${k}|${v} |`;
-      })
+      .map(([k, v]) => `| ${k}|${v} |`)
       .join("\n");
 
     const steps = recipe.steps
@@ -38,7 +38,12 @@ class CooklangParser {
       )
       .join("\n");
 
-    const wikiText = [metadata, ingredients, steps].join(`\n\n`);
+      const wikiText = [
+          metadata,
+          "!! Ingredients", ingredients,
+          "!! Cookwares", cookwares,
+          "!! Instructions", steps
+      ].join(`\n\n`);
 
     this.tree = $tw.wiki.parseText("text/vnd.tiddlywiki", wikiText).tree;
   }
