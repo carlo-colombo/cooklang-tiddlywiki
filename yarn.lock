@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-"@cooklang/cooklang-ts@^1.2.4":
-  version "1.2.4"
-  resolved "https://registry.yarnpkg.com/@cooklang/cooklang-ts/-/cooklang-ts-1.2.4.tgz#ba06838eeeab38441bff7135ac4cb6f03eb30f44"
-  integrity sha512-KLtJnZYa6Rgi1B9W8EIRS0TM8e7uhcZVyngbFyrUwDwmVvuv8KUUbNuhV9R5upbkh/dfp94PYyuV9J5E1DLWOw==
+"@cooklang/cooklang-ts@^1.2.5":
+  version "1.2.5"
+  resolved "https://registry.yarnpkg.com/@cooklang/cooklang-ts/-/cooklang-ts-1.2.5.tgz#da5e1e5a46d6344a338417ca149bd2f71a7b65eb"
+  integrity sha512-ePs/krnanoCprK6FVog5JBXLSWLvIxE9jMmhFsArcgEYVTtm6Ee5VJk1Yi5aT6hjREmuE8PiBJs4W5qsDvIenA==
 
 "@esbuild/android-arm64@0.19.5":
   version "0.19.5"
