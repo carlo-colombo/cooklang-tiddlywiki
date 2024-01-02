@@ -4,7 +4,7 @@
     "esbuild": "^0.19.5",
     "execa": "^8.0.1",
     "prettier": "^3.0.3",
-    "tiddlywiki": "^5.3.1"
+    "tiddlywiki": "^5.3.3"
   },
   "dependencies": {
     "@cooklang/cooklang-ts": "^1.2.4"
