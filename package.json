@@ -7,7 +7,7 @@
     "tiddlywiki": "^5.3.3"
   },
   "dependencies": {
-    "@cooklang/cooklang-ts": "^1.2.5"
+    "@cooklang/cooklang-ts": "^1.2.6"
   },
   "scripts": {
     "tw": "npx tiddlywiki",
