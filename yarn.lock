@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-"@cooklang/cooklang-ts@^1.2.5":
-  version "1.2.5"
-  resolved "https://registry.yarnpkg.com/@cooklang/cooklang-ts/-/cooklang-ts-1.2.5.tgz#da5e1e5a46d6344a338417ca149bd2f71a7b65eb"
-  integrity sha512-ePs/krnanoCprK6FVog5JBXLSWLvIxE9jMmhFsArcgEYVTtm6Ee5VJk1Yi5aT6hjREmuE8PiBJs4W5qsDvIenA==
+"@cooklang/cooklang-ts@^1.2.6":
+  version "1.2.6"
+  resolved "https://registry.yarnpkg.com/@cooklang/cooklang-ts/-/cooklang-ts-1.2.6.tgz#61ac470c1af498248f2362d7f8b8b28effcef0e2"
+  integrity sha512-W1a7hFMDgZtVtMvVbQGMegMoWjFGqA17ZD8rGsEBA7WUhTjlGeI/758DtUhxT36uFXFwGMc3LZF6TPFeIXAgGw==
 
 "@esbuild/aix-ppc64@0.20.0":
   version "0.20.0"
