@@ -351,10 +351,10 @@ strip-final-newline@^3.0.0:
   resolved "https://registry.yarnpkg.com/strip-final-newline/-/strip-final-newline-3.0.0.tgz#52894c313fbff318835280aed60ff71ebf12b8fd"
   integrity sha512-dOESqjYr96iWYylGObzd39EuNTa5VJxyvVAEm5Jnh7KGo75V43Hk1odPQkNDyXNmUR6k+gEiDVXnjB8HJ3crXw==
 
-tiddlywiki@^5.3.3:
-  version "5.3.3"
-  resolved "https://registry.yarnpkg.com/tiddlywiki/-/tiddlywiki-5.3.3.tgz#7b98eadbbbc1475a6bb89c321eb4032e8db70b15"
-  integrity sha512-PkgVfZNpFFHyMmfFw91igXOJn8Z7IWg3NGXOX5EBqJwzGNeYYOIUg4FqCNsWoqBece20HxtkDue/vTf2jDtdZQ==
+tiddlywiki@^5.3.6:
+  version "5.3.6"
+  resolved "https://registry.yarnpkg.com/tiddlywiki/-/tiddlywiki-5.3.6.tgz#e22f8ff79d9f00eb508d95bfd3ab129ff20953df"
+  integrity sha512-RfWt+Bo/UsTdzP5N4nEInjaJjgAzylUMf21hE4FL5v65c3x054+A+3g3sgW1m68lTJbTbiiqSZ6q6BEIZMwhSQ==
 
 to-regex-range@^5.0.1:
   version "5.0.1"
